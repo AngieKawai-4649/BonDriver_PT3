@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\BonDriver">
+      <UniqueIdentifier>{90a50c00-c356-4bd2-b7f0-0feddbd7f6ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Common">
+      <UniqueIdentifier>{4dc9403b-c010-4f94-bddc-a18045cd0a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\BonDriver">
+      <UniqueIdentifier>{9deceb3f-d4cd-4fd8-ae1d-62884d8eb88c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Common">
+      <UniqueIdentifier>{acfe3771-56e5-488a-aa6e-666ade90f344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\EARTH_inc">
+      <UniqueIdentifier>{da272029-f207-408f-8a11-75d61cf7e462}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BonDriver_PT3.cpp">
+      <Filter>ソース ファイル\BonDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BonTuner.cpp">
+      <Filter>ソース ファイル\BonDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dllmain.cpp">
+      <Filter>ソース ファイル\BonDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ParseChSet.cpp">
+      <Filter>ソース ファイル\BonDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>ソース ファイル\BonDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\PipeServer.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\PT1CreateCtrlCmdUtil.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\PT1SendCtrlCmdUtil.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\ServiceUtil.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\StringUtil.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\Util.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\BonTuner.h">
+      <Filter>ヘッダー ファイル\BonDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\IBonDriver.h">
+      <Filter>ヘッダー ファイル\BonDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\IBonDriver2.h">
+      <Filter>ヘッダー ファイル\BonDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ParseChSet.h">
+      <Filter>ヘッダー ファイル\BonDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\resource.h">
+      <Filter>ヘッダー ファイル\BonDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stdafx.h">
+      <Filter>ヘッダー ファイル\BonDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\PipeServer.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\PT1CreateCtrlCmdUtil.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\PT1OutsideCtrlCmdDef.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\PT1SendCtrlCmdUtil.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\ServiceUtil.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\StringUtil.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\Util.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="EARTH_inc\EARTH_PT3.h">
+      <Filter>ヘッダー ファイル\EARTH_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="EARTH_inc\OS_Library.h">
+      <Filter>ヘッダー ファイル\EARTH_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="EARTH_inc\Prefix.h">
+      <Filter>ヘッダー ファイル\EARTH_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="EARTH_inc\Prefix_Integer.h">
+      <Filter>ヘッダー ファイル\EARTH_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BonDriver_PT3.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="..\Common\compatibility.manifest">
+      <Filter>リソース ファイル</Filter>
+    </Manifest>
+  </ItemGroup>
+</Project>
